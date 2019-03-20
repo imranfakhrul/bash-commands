@@ -18,12 +18,17 @@
 
 ## Remove empty directory
 `rmdir <directory name>`
+`rm -d <directory name>`
 
 ## Remove directory that contains data
 `rm <directory name>`
-
-## Remove only directory
 `rm -r <directory name>`
+
+## Remove non empty directory without prompt
+`rm -rf <directory name>`
+
+<!-- ## Remove only directory
+`rm -r <directory name>` -->
 
 ## Know about a command
 `man <command name>`
@@ -154,3 +159,20 @@
 
 ## To ping (check internet connection, or check connection to a server)
 `ping <server>`
+
+## Remove a file
+`rm <filename>`
+
+## Remove multiple files
+`rm <filename> <filename> <filename>`
+
+## Remove all file of same extension
+`rm *.pdf`
+
+## Confirm each file before removing
+`rm -i <filename>`
+
+## Remove file without prompt
+`rm -f <filename>`
+
+## 

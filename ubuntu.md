@@ -41,7 +41,7 @@
 
 `rm -r <directory name>` -->
 
-## Know about a command
+## Know about a command / Mannual of a command
 
 `man <command name>`
 
@@ -266,4 +266,30 @@
 
 `history`
 
-## 
+## Know computer uptime
+
+`uptime`
+
+## Search from previous commands
+
+`CTRL + R`
+
+## Read a file
+
+`cat <filename>`
+
+## Read multiple file simultaneously
+
+`cat <filename> <filename>`
+
+## Analyze a file
+
+`wc <filename>`
+
+## See the diffrence btween two files
+
+`diff <filename> <filename>`
+
+## Show output text in one line
+
+`less <filename>`

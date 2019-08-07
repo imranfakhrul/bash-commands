@@ -182,6 +182,9 @@
 
 `sudo apt-get upgrade`
 
+### Only upgrade a sinlge package
+`sudo apt-get install --only-upgrade  <Package Name>`
+
 ## Upgrade distro
 
 `sudo apt-get dist-upgrade`

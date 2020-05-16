@@ -311,3 +311,6 @@
 `source .bash_profile`\
 `source bash.bashrc`\
 `source /etc/profile`
+
+## Find and replace text of a file
+`sed -i 's/<text to replace>/<text to be replaced>/g' <filename>`

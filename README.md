@@ -296,3 +296,18 @@
 ## Show output text in one line
 
 `less <filename>`
+
+## List out all the current session environment variables
+`env`
+
+## Add a new environment variable for this session (will be vanished after closing bash)
+`export <MYVAR>=<VARVALUE>`
+
+## Remove an environment variable from current session
+`unset <MYVAR>`
+
+## Update current session with changes made in `.bashrc` / `.bash_profile` / `bash.bashrc` / `/etc/profile` file
+`source .bashrc`\
+`source .bash_profile`\
+`source bash.bashrc`\
+`source /etc/profile`

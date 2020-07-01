@@ -344,3 +344,53 @@ Ex: `man grep`
 
 `shutdown -r now`
 
+# Tar commands
+
+### Create a new tar archive
+
+`tar cvf archive_name.tar dirname/`\
+`tar cvfz archive_name.tar.gz dirname/`\
+`tar cvfz archive_name.tgz dirname/`\
+`tar cvfj archive_name.tar.bz2 dirname/`\
+`tar cvfj archive_name.tb2 dirname/`\
+`tar cvfj archive_name.tbz dirname/`
+
+**Description**:
+
+| Term | Description                              |
+| :--- | :--------------------------------------- |
+| c    | Create a new archive                     |
+| v    | Verbosely list files which are processed |
+| f    | Following is the archive file name       |
+| z    | Filter the archive through gzip          |
+| j    | Filter the archive through bzip2         |
+
+**NB**:
+
+-  `.tgz` is same as `.tar.gz`
+- `.tb2` and `.tbz` are same as `.tar.bz2`
+- `bzip2` takes more time to compress and decompress than `gzip`. But `bzip2` archival size is less than `gzip`
+
+### Extract from an existing tar archive
+
+`tar xvf archive_name.tar`
+
+**Description**:
+
+| Term | Description                |
+| :--- | :------------------------- |
+| x    | Extract files from archive |
+
+### Extract a gzipped tar archive
+`tar xvfz archive_name.tar.gz`
+
+### Extract a bzipped tar archive
+`tar xvfj archive_name.tar.gz`
+
+**NB**:
+- In all above commands, `v` is optional 
+
+### View an existing tar archive
+
+`tar tvf archive_name.tar`
+

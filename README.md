@@ -394,3 +394,8 @@ Ex: `man grep`
 
 `tar tvf archive_name.tar`
 
+# Grep commands
+
+### Search for a given string in a file (case in-sensitive search
+
+`grep -i "the" demo_file`

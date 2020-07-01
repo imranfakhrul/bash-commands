@@ -319,3 +319,28 @@
 ### Find and replace text of a file
 
 `sed -i 's/<text to replace>/<text to be replaced>/g' <filename>`
+
+### See info of a command
+
+`info <command>`
+
+Ex: `info grep`
+
+### See manual of a command
+
+`man <command>`
+
+Ex: `man grep`
+
+### To logout
+
+`logout`
+
+### To shutdown (must be with root permission)
+
+`shutdown -h now`
+
+### To reboot (must be with root permission)
+
+`shutdown -r now`
+

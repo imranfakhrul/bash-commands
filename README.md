@@ -82,14 +82,6 @@
 
 `cat <filename>`
 
-### Clear terminal window
-
-`clear`
-
-### Exit from terminal
-
-`exit`
-
 ### Turn off computer
 
 `sudo halt`
@@ -211,21 +203,9 @@
 
 `date`
 
-### Know your bash version
-
-`bash --version`
-
-### Know your bash history
-
-`history`
-
 ### Know computer uptime
 
 `uptime`
-
-### Search from previous commands
-
-`CTRL + R`
 
 ### Read a file
 
@@ -246,25 +226,6 @@
 ### Show output text in one line
 
 `less <filename>`
-
-### List out all the current session environment variables
-
-`env`
-
-### Add a new environment variable for this session (will be vanished after closing bash)
-
-`export <MYVAR>=<VARVALUE>`
-
-### Remove an environment variable from current session
-
-`unset <MYVAR>`
-
-### Update current session with changes made in `.bashrc` / `.bash_profile` / `bash.bashrc` / `/etc/profile` file
-
-`source .bashrc`\
-`source .bash_profile`\
-`source bash.bashrc`\
-`source /etc/profile`
 
 ### Find and replace text of a file
 
@@ -294,7 +255,48 @@ Ex: `man grep`
 
 `shutdown -r now`
 
-# Permission
+# Bash/Terminal related command
+
+### Know your bash version
+
+`bash --version`
+
+### Know your bash history
+
+`history`
+
+### Add a new environment variable for this session (will be vanished after closing bash)
+
+`export <MYVAR>=<VARVALUE>`
+
+### Remove an environment variable from current session
+
+`unset <MYVAR>`
+
+### Update current session with changes made in `.bashrc` / `.bash_profile` / `bash.bashrc` / `/etc/profile` file
+
+`source .bashrc`\
+`source .bash_profile`\
+`source bash.bashrc`\
+`source /etc/profile`
+
+### Clear terminal window
+
+`clear`
+
+### Exit from terminal
+
+`exit`
+
+### Search from previous commands
+
+`CTRL + R`
+
+### List out all the current session environment variables
+
+`env`
+
+# Permission related commands
 
 ### Make a file executable
 
@@ -306,29 +308,29 @@ Ex: `man grep`
 
 ### Make a file root executable
 
-`sudo chmod +x <filename>`
+`chmod +x <filename>`
 
 # APT (package manager) commands
 
 ### Install a package
 
-`sudo apt-get <package name>`
+`apt-get <package name>`
 
 ### Update repository
 
-`sudo apt-get update`
+`apt-get update`
 
 ### Upgrade system
 
-`sudo apt-get upgrade`
+`apt-get upgrade`
 
 ### Only upgrade a sinlge package
 
-`sudo apt-get install --only-upgrade <Package Name>`
+`apt-get install --only-upgrade <Package Name>`
 
 ### Upgrade distro
 
-`sudo apt-get dist-upgrade`
+`apt-get dist-upgrade`
 
 ### Search for a package
 
@@ -389,6 +391,6 @@ Ex: `man grep`
 
 # Grep commands
 
-### Search for a given string in a file (case in-sensitive search
+### Search for a given string in a file (case in-sensitive search)
 
 `grep -i "the" demo_file`

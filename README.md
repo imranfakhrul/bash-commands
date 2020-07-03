@@ -1,3 +1,5 @@
+# General commands
+
 ### Watch present directory
 
 `pwd`
@@ -98,11 +100,11 @@
 
 ### Open "nano"
 
-`nan <filename>`
+`nano <filename>`
 
 ### Open "vim"
 
-`vim <filename>`
+`vi <filename>`
 
 ### Open "jed"
 
@@ -141,18 +143,6 @@
 
 `ls -lah`
 
-### Create a .tar archive
-
-`tar -cvf`
-
-### Untar a .tar archive
-
-`tar -xvf`
-
-### Watch the list of the content of a .tar archive
-
-`tar -tvf`
-
 ### ZIP something
 
 `zip <foldername>`
@@ -168,42 +158,6 @@
 ### Get detail information about system
 
 `uname -a`
-
-### Install a package
-
-`sudo apt-get <package name>`
-
-### Update repository
-
-`sudo apt-get update`
-
-### Upgrade system
-
-`sudo apt-get upgrade`
-
-### Only upgrade a sinlge package
-
-`sudo apt-get install --only-upgrade <Package Name>`
-
-### Upgrade distro
-
-`sudo apt-get dist-upgrade`
-
-### Search for a package
-
-`apt-cache search <package name>`
-
-### Make a file executable
-
-`chmod +x <filename>`
-
-### Make a file executable as administrator
-
-`chmod 755 <filename>`
-
-### Make a file root executable
-
-`sudo chmod +x <filename>`
 
 ### Watch hostname
 
@@ -256,10 +210,6 @@
 ### Know date
 
 `date`
-
-### Know your hostname
-
-`hostname`
 
 ### Know your bash version
 
@@ -344,6 +294,46 @@ Ex: `man grep`
 
 `shutdown -r now`
 
+# Permission
+
+### Make a file executable
+
+`chmod +x <filename>`
+
+### Make a file executable as administrator
+
+`chmod 755 <filename>`
+
+### Make a file root executable
+
+`sudo chmod +x <filename>`
+
+# APT (package manager) commands
+
+### Install a package
+
+`sudo apt-get <package name>`
+
+### Update repository
+
+`sudo apt-get update`
+
+### Upgrade system
+
+`sudo apt-get upgrade`
+
+### Only upgrade a sinlge package
+
+`sudo apt-get install --only-upgrade <Package Name>`
+
+### Upgrade distro
+
+`sudo apt-get dist-upgrade`
+
+### Search for a package
+
+`apt-cache search <package name>`
+
 # Tar commands
 
 ### Create a new tar archive
@@ -367,7 +357,7 @@ Ex: `man grep`
 
 **NB**:
 
--  `.tgz` is same as `.tar.gz`
+- `.tgz` is same as `.tar.gz`
 - `.tb2` and `.tbz` are same as `.tar.bz2`
 - `bzip2` takes more time to compress and decompress than `gzip`. But `bzip2` archival size is less than `gzip`
 
@@ -382,13 +372,16 @@ Ex: `man grep`
 | x    | Extract files from archive |
 
 ### Extract a gzipped tar archive
+
 `tar xvfz archive_name.tar.gz`
 
 ### Extract a bzipped tar archive
+
 `tar xvfj archive_name.tar.gz`
 
 **NB**:
-- In all above commands, `v` is optional 
+
+- In all above commands, `v` is optional
 
 ### View an existing tar archive
 

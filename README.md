@@ -1,3 +1,12 @@
+**List of contents**
+
+1.  [General commands](#general-commands)
+2.  [Bash/Terminal related commands](#bashterminal-related-command)
+3.  [Permission related commands](#permission-related-commands)
+4.  [APT(Package manager) commands](#apt-package-manager-commands)
+5.  [Tar commands](#tar-commands)
+6.  [Grep commands](#grep-commands)
+
 # General commands
 
 #### Watch present directory

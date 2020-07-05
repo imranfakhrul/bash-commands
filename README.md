@@ -264,6 +264,19 @@ Ex: `man grep`
 
 `shutdown -r now`
 
+#### Get alias list
+
+`alias`
+
+#### Set an alias
+
+`alias [name="value"]`\
+Ex: `alias p="pwd"`
+
+#### Remove alias from current user alias list
+
+`unalias <alias_name>`
+
 # Bash/Terminal related command
 
 #### Know your bash version

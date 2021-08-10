@@ -318,6 +318,22 @@ Ex: `alias p="pwd"`
 
 `env`
 
+#### ➤ Add directory to $PATH
+
+> Step 1: Add dir to ~/.bash_profile
+>
+> > `echo 'export PATH="$PATH:[NEW_DIR_LOCATION_TO_ADD_TO_PATH]”’ >> ~/.bash_profile`
+
+> Step 2: Reload to make the changes available to the current shell
+>
+> > `source ~/.bash_profile`\
+> > Or\
+> > `. ~/.bash_profile`
+
+> Step 3: Verify that the directory is in the $PATH
+>
+> > `echo $PATH`
+
 # Permission related commands
 
 #### ➤ Make a file executable
